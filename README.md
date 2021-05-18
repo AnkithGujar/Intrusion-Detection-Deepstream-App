@@ -1,9 +1,5 @@
 # Intrusion Detection using Deepstream 5.1 #
 
-## Description ##
-
-The main focus of our project was to achieve two aspects of self-driving cars, Steering control and Obstacle avoidance. We trained our Convolutional Neural Network (CNN) with images taken from a camera mounted on the vehicle to achieve accurate steering control and we used a pre-trained network on the Common Objects in Context (COCO) dataset for Object Detection. The code in this repository focuses on testing our model in the game GTA V. We picked GTA V for its real-world simulation with traffic, pedestrians, traffic lights, and buildings.
-
 ## Folder Structure ##
 
 ```bash
@@ -39,4 +35,15 @@ The main focus of our project was to achieve two aspects of self-driving cars, S
 │   ├── nginx.conf
 │   ├── uwsgi.ini
 ├── README.md
+```
+
+## How To Use ##
+
+* Run the flask_app.py file with 
+```bash 
+python3 flask_app.py
+```
+* Run the deepstream_intrusion_analytics.py file with
+```bash 
+python3 deepstream_intrusion_analytics.py file://<full path to input video>
 ```
