@@ -58,6 +58,6 @@ python3 flask_app.py
 ```bash 
 python3 deepstream_intrusion_analytics.py <uri1> [uri2] ... [uriN]
 
-Eg: python3 deepstream_intrusion_analytics.py file:///home/ubuntu/video1.mp4
+Eg:	python3 deepstream_intrusion_analytics.py file:///home/ubuntu/video1.mp4
 	python3 deepstream_intrusion_analytics.py rtsp://127.0.0.1/video1
 ```
